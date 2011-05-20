@@ -1,0 +1,43 @@
+LF 20/05/2011
+
+i-INSPIRE To Do:
+
+1) Pseudo-code
+   a) module for nanospec camera
+      *initialise nanospec (whatever this entails)
+      *take frame
+      *read out frame (buffer?)
+      *write frame (where? straight to SD memory?)
+   b) module for pinhole camera (simpler control system)
+      *initialise pinhole camera
+      *take frame
+      *write frame (where? also to SD memory?)
+   c) module to read data from SD card
+   d) module for radiation counter
+   e) module to write data to BX24
+   f) diagnostics module for BX24 and instruments
+      *maybe this needs to have various states of "OK"
+   [g) comms with transceiver
+      *turn transceiver on
+      *turn transceiver off
+      *get transceiver to transmit] - Xiaofeng to find module that does all this.
+
+2) Test the pinhole camera.
+   a) wire for BX24
+   b) write control module for camera
+   c) test data transfer/storage w/ memory expansion kit
+
+3) Assemble and test CMOS for i-INSPIRE
+   a) purchase items (pinhole camera included here)
+   b) company to assemble the board.
+   c) board testing in lab
+      *wire up power for chip etc. 
+      *wire up serial connection to BX24
+      *write control module
+      *test control module - NB data transfer/storage on BX24/expansion kit
+
+4) Radiation Counter
+   a) development of fibre radiation counter
+   b) lab testing
+   c) calibration
+   d) control module.
